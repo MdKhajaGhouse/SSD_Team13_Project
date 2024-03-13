@@ -35,7 +35,7 @@ Make sure you have the following installed on your machine:
 3. Activate the virtual environment:
    - On Windows: `env\Scripts\activate`
    - On macOS and Linux: `source env/bin/activate`
-4. Install Python dependencies: `pip install -r requirements.txt`
+4. Install Python dependencies: `pip3 install -r requirements.txt`
 
 ## Running the Application
 
@@ -47,8 +47,8 @@ Make sure you have the following installed on your machine:
 ### Backend (Django)
 
 1. In the `backend` directory, make sure your virtual environment is activated.
-2. Run Django migrations: `python manage.py migrate`
-3. Start the Django server: `python manage.py runserver`
+2. Run Django migrations: `python3 manage.py migrate`
+3. Start the Django server: `python3 manage.py runserver`
 4. The Django backend will be accessible at `http://localhost:8000`.
 
 ## Usage
